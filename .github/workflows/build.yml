@@ -3,6 +3,6 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    uses: gardenlinux/package-build/.github/workflows/build.yml@main
+    uses: gardenlinux/package-build/.github/workflows/build.yml@more-info-on-release
     with:
-      release: false
+      release: true
