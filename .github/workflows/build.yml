@@ -1,6 +1,8 @@
 on:
   push:
   workflow_dispatch:
+permissions:
+  contents: write-all  
 jobs:
   build:
     uses: gardenlinux/package-build/.github/workflows/build.yml@more-info-on-release
