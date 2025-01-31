@@ -4,7 +4,7 @@ on:
 permissions: write-all 
 jobs:
   build:
-    uses: gardenlinux/package-build/.github/workflows/build.yml@more-info-on-release
+    uses: gardenlinux/package-build/.github/workflows/build.yml@sha-sum-release-files
     with:
       release: true
       runs-on-arm64: ubuntu-24.04-arm
